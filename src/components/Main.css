@@ -1,0 +1,27 @@
+main{
+    grid-column: 2/3;
+}
+h1{
+    color: rgb(0, 123, 172);
+    margin: 60px 2px 10px;
+}
+input{
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 2px solid aqua;
+    border-radius: 20px;
+    background: transparent;
+}
+button{
+    margin-left: 30px;
+    padding: 7px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(0, 123, 172);
+    color: whitesmoke;
+}
+input:focus{
+    background-color: azure;
+}

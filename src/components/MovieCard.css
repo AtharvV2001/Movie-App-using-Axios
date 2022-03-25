@@ -1,0 +1,29 @@
+.MovCard{
+    position: relative;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.card--img{
+    width: 250px;
+}
+.card--block{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    bottom: 0;
+    padding: 10px 20px;
+    width: 210px;
+    animation: fadeIn 1s ;
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
